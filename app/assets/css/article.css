@@ -11,17 +11,22 @@
 }
 .article_detail {
   padding-top: 10px;
-  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-size: 12px;
+  position: relative;
 }
 .article_detail img {
+  cursor: pointer;
   width: 32px;
   height: 32px;
   border-radius: 100%;
   margin-right: 16px;
+}
+.article_detail_actions {
+  position: absolute;
+  right: 0;
 }
 .article_content {
   padding: 24px 0 32px;
